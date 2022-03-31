@@ -44,6 +44,8 @@ module.exports = {
       ],
     },
     // 最后更新时间
-    lastUpdated: '更新于: ',
+    lastUpdated: '更新于',
+    // Git 仓库和编辑链接
+    repo: '/Ykkaaii/yk-blog',
   },
 };

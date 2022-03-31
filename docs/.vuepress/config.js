@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/yk-blog/',
   // 使用主题
   theme: 'reco',
   // 说明

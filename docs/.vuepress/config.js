@@ -23,10 +23,12 @@ module.exports = {
     subSidebar: 'auto',
     // 导航栏配置 TODO：思考下怎么通过脚本实现配置
     nav: [
+      { text: '阅读清单', link: '/book' },
       {
         text: '学习笔记',
           items: [
-          { text: '数据结构&算法', link: '/notes/structure/structure' },
+          { text: 'JS基础', link: '/notes/jsbasal/scope' },
+          { text: '数据结构', link: '/notes/structure/structure' },
         ]
       },
     ],
@@ -40,6 +42,17 @@ module.exports = {
           children: [
             { title: "数据结构", path: "/notes/structure/structure" },
             { title: "算法", path: "/notes/structure/algorithm" }
+          ],
+        }
+      ],
+
+      '/notes/jsbasal/': [
+        {
+          title: "JavaScript基础",
+          path: '/notes/jsbasal/scope',
+          collapsable: false, // 不折叠
+          children: [
+            { title: "作用域与闭包", path: "/notes/jsbasal/scope" },
           ],
         }
       ],

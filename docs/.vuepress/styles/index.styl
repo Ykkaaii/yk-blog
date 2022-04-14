@@ -2,10 +2,22 @@
  * 公共样式
  */
 
+h1, h2, h3, h4, h5, h6 {
+  line-height 1.8 !important
+}
+
 .personal-info-wrapper,
 .footer-wrapper.footer,
 .color-picker {
   display none !important
+}
+
+.content__default:not(.custom) > h2 {
+  border-bottom: 1px solid rgba($accentColor, 0.3)
+
+  ::before {
+    display none
+  }
 }
 
 /* 首页 */

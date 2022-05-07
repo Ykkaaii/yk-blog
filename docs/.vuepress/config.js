@@ -27,7 +27,7 @@ module.exports = {
       {
         text: '学习笔记',
           items: [
-          { text: 'JS基础', link: '/notes/jsbasal/scope' },
+          { text: 'JS基础', link: '/notes/jsbasal/introduction' },
           { text: '数据结构', link: '/notes/structure/structure' },
         ]
       },
@@ -52,7 +52,8 @@ module.exports = {
           path: '/notes/jsbasal/scope',
           collapsable: false, // 不折叠
           children: [
-            { title: "作用域与闭包", path: "/notes/jsbasal/scope" },
+            { title: "JS是解释型语言还是编译型语言", path: "/notes/jsbasal/introduction" },
+            { title: "深入理解JavaScript作用域", path: "/notes/jsbasal/scope" },
           ],
         }
       ],

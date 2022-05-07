@@ -2,9 +2,23 @@
  * 公共样式
  */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   line-height 1.8 !important
 }
+
+p, li, ul, ol {
+  color $textColor
+}
+
+p > code {
+  padding 0.25rem !important
+  margin 0 0.25rem !important
+  color #ec8000 !important
+  background-color #F3F3F4 !important
+}
+
+
+
 
 .personal-info-wrapper,
 .footer-wrapper.footer,
@@ -12,11 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   display none !important
 }
 
-.content__default:not(.custom) > h2 {
-  border-bottom: 1px solid rgba($accentColor, 0.3)
+.page .theme-reco-content h2 {
+  border-bottom 1px solid rgba($accentColor, 0.3)
+  padding-left 0 !important
 
-  ::before {
-    display none
+  &:before {
+    display none !important
   }
 }
 

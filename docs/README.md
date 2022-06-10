@@ -4,7 +4,7 @@ heroImage: /logo.jpeg
 heroText: 阿楷的作业本
 tagline: 学不动了，阿Sir!!
 actionText: 从入门到入土 →
-actionLink: /notes/jsbasal/scope/
+actionLink: /book/
 title: 首页
 ---
 

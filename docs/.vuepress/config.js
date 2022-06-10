@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   // 移动端优化
-  // 在移动端，搜索框在获得焦点时会放大，并且在失去焦点后可以左右滚动，这可以通过设置元来优化。
+  // 在移动端, 搜索框在获得焦点时会放大, 并且在失去焦点后可以左右滚动, 这可以通过设置元来优化. 
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
@@ -21,7 +21,7 @@ module.exports = {
   themeConfig: {
     // 开启第二个侧边栏
     subSidebar: 'auto',
-    // 导航栏配置 TODO：思考下怎么通过脚本实现配置
+    // 导航栏配置 TODO: 思考下怎么通过脚本实现配置
     nav: [
       { text: '阅读清单', link: '/book' },
       {
@@ -52,8 +52,9 @@ module.exports = {
           path: '/notes/jsbasal/scope',
           collapsable: false, // 不折叠
           children: [
-            { title: "JS是解释型语言还是编译型语言", path: "/notes/jsbasal/introduction" },
-            { title: "深入理解JavaScript作用域", path: "/notes/jsbasal/scope" },
+            { title: "浅谈JavaScript是什么类型的语言", path: "/notes/jsbasal/introduction" },
+            { title: "浅谈JavaScript中的作用域", path: "/notes/jsbasal/scope" },
+            { title: "浅谈JavaScript中的提升", path: "/notes/jsbasal/hoisting" },
           ],
         }
       ],
